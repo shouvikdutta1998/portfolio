@@ -22,7 +22,7 @@
     },
     {
       title: 'Indigo Airlines',
-      image: './img/projects/indigo.jpeg',
+      image: './img/projects/Indigo.jpeg',
       imageAlt: 'Indigo Airlines',
       description: 'Stored Based HTML Injection Attack over the Indigo Chat box, While chatting to any Indigo support team member injecting HTML payloads and successfully executed',
       badgeCaption: 'HTML Injection',
