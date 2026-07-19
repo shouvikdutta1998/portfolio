@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shouvik Dutta | Offensive Security Professional</title>
+  <meta name="description" content="Shouvik Dutta — Offensive Security professional specializing in Application Security, Red Teaming, Penetration Testing and Vulnerability Assessment.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <!-- Nav -->
+  <header class="site-nav" id="site-nav">
+    <div class="wrap nav-inner">
+      <a href="#home" class="brand">
+        <img src="./img/logo/logo.png" alt="Shouvik Dutta logo">
+        Shouvik Dutta<span class="dot">_</span>
+      </a>
+      <nav class="primary-links" id="primary-links">
+        <a href="#home" class="nav-close">Home</a>
+        <a href="#about" class="nav-close">About</a>
+        <a href="#skills" class="nav-close">Skills</a>
+        <a href="#bounties" class="nav-close">Bounties</a>
+        <a href="#contact" class="nav-close">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">whoami<span class="cursor-blink"></span></span>
+        <h1 class="hero-title">Breaking things<br>so <span class="accent">no one else</span><br>has to.</h1>
+        <p class="hero-sub">Offensive Security professional with 7 years of experience across Application Security, Penetration Testing, Red Teaming and Vulnerability Assessment — currently a Senior Associate at PwC AC.</p>
+        <div class="cta-row">
+          <a href="#bounties" class="btn btn-primary"><i class="fa-solid fa-bug"></i> View Bounties</a>
+          <a href="#contact" class="btn btn-ghost"><i class="fa-regular fa-paper-plane"></i> Get In Touch</a>
+        </div>
+      </div>
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+          <span class="title">shouvik@offsec: ~</span>
+        </div>
+        <div class="terminal-body" id="terminal-body"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="wrap">
+      <span class="eyebrow">cat about.md</span>
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="bio reveal">
+          <p>I am an <strong>Offensive Security professional</strong> with 7 years of experience in Application Security, Penetration Testing, Red Teaming, and Vulnerability Assessment. Throughout my career, I've helped organizations identify and remediate security weaknesses across web applications, APIs, mobile applications, internal infrastructure, cloud environments, and Active Directory.</p>
+          <p>My professional journey began at <strong>Cyberops Infosec</strong>, followed by <strong>EY India</strong>, and I currently work as a <strong>Senior Associate at PwC AC</strong>, where I perform offensive security assessments for global clients across multiple industries.</p>
+          <p>My areas of expertise include web application security, API security, network penetration testing, mobile application security, Active Directory security assessments, cloud security reviews, and AI application security. I approach security from an attacker's perspective to uncover real-world risks that automated tools often miss — combining deep technical expertise with practical, risk-focused assessments.</p>
+          <div class="cert-row">
+            <span class="cert-badge">OSCP</span>
+            <span class="cert-badge">CRTO</span>
+            <span class="cert-badge">CEH v11</span>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="period">Current</div>
+              <div class="role">Senior Associate</div>
+              <div class="org">PwC AC</div>
+            </div>
+            <div class="timeline-item">
+              <div class="period">Previous</div>
+              <div class="role">Security Consultant</div>
+              <div class="org">EY India</div>
+            </div>
+            <div class="timeline-item">
+              <div class="period">Earlier</div>
+              <div class="role">Security Analyst</div>
+              <div class="org">Cyberops Infosec</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="credential-grid reveal">
+        <div class="credential-item">
+          <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+          <span class="label">OSCP</span>
+        </div>
+        <div class="credential-item">
+          <i class="fa-solid fa-user-ninja" aria-hidden="true"></i>
+          <span class="label">CRTO</span>
+        </div>
+        <div class="credential-item">
+          <i class="fa-solid fa-user-shield" aria-hidden="true"></i>
+          <span class="label">CEH v11</span>
+        </div>
+        <div class="credential-item">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <span class="label">VAPT</span>
+        </div>
+        <div class="credential-item">
+          <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>
+          <span class="label">Cyber Security Trainer</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="wrap">
+      <span class="eyebrow">ls ~/skills</span>
+      <h2>Skills & Expertise</h2>
+      <p class="section-intro">Core disciplines, focus areas, and the tools used day to day.</p>
+      <div class="skill-groups">
+        <div class="skill-card reveal">
+          <h3>Offensive Security</h3>
+          <p class="desc">Primary assessment disciplines</p>
+          <div class="skill-chip-list">
+            <span class="skill-chip"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i>Web Application</span>
+            <span class="skill-chip"><i class="fa-solid fa-network-wired" aria-hidden="true"></i>Network Security</span>
+            <span class="skill-chip"><i class="fa-brands fa-android" aria-hidden="true"></i>Mobile / Android</span>
+            <span class="skill-chip"><i class="fa-solid fa-globe" aria-hidden="true"></i>External Penetration Testing</span>
+            <span class="skill-chip"><i class="fa-solid fa-user-ninja" aria-hidden="true"></i>Red Teaming</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Beyond the Terminal</h3>
+          <p class="desc">Other interests & pursuits</p>
+          <div class="skill-chip-list">
+            <span class="skill-chip"><i class="fa-solid fa-pen-nib" aria-hidden="true"></i>Content Writing</span>
+            <span class="skill-chip"><i class="fa-solid fa-flag-checkered" aria-hidden="true"></i>CTF Competitor</span>
+            <span class="skill-chip"><i class="fa-solid fa-chess" aria-hidden="true"></i>Chess Player</span>
+            <span class="skill-chip"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>Mentoring & Knowledge Sharing</span>
+            <span class="skill-chip"><i class="fa-solid fa-plane-departure" aria-hidden="true"></i>Travel</span>
+            <span class="skill-chip"><i class="fa-solid fa-people-roof" aria-hidden="true"></i>Family First</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Tools & Platforms</h3>
+          <p class="desc">What ships in the toolkit</p>
+          <div class="skill-chip-list">
+            <span class="skill-chip"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</span>
+            <span class="skill-chip"><i class="fa-solid fa-bug" aria-hidden="true"></i>Burp Suite</span>
+            <span class="skill-chip"><i class="fa-brands fa-linux" aria-hidden="true"></i>Kali Linux</span>
+            <span class="skill-chip"><i class="fa-solid fa-satellite-dish" aria-hidden="true"></i>Nessus</span>
+            <span class="skill-chip"><i class="fa-solid fa-sitemap" aria-hidden="true"></i>Nmap</span>
+            <span class="skill-chip"><i class="fa-solid fa-crosshairs" aria-hidden="true"></i>Metasploit Framework</span>
+            <span class="skill-chip"><i class="fa-solid fa-spider" aria-hidden="true"></i>OWASP ZAP</span>
+            <span class="skill-chip"><i class="fa-solid fa-database" aria-hidden="true"></i>SQLMap</span>
+            <span class="skill-chip"><i class="fa-solid fa-signal" aria-hidden="true"></i>Wireshark</span>
+            <span class="skill-chip"><i class="fa-brands fa-docker" aria-hidden="true"></i>Docker</span>
+            <span class="skill-chip"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i>Postman</span>
+            <span class="skill-chip"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>SonarQube</span>
+            <span class="skill-chip"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i>Fortify SCA</span>
+            <span class="skill-chip"><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>MobSF</span>
+            <span class="skill-chip"><i class="fa-solid fa-terminal" aria-hidden="true"></i>Netcat</span>
+            <span class="skill-chip"><i class="fa-solid fa-chess-knight" aria-hidden="true"></i>Cobalt Strike</span>
+            <span class="skill-chip"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>Acunetix</span>
+            <span class="skill-chip"><i class="fa-solid fa-fingerprint" aria-hidden="true"></i>Frida</span>
+            <span class="skill-chip"><i class="fa-solid fa-unlock" aria-hidden="true"></i>Objection</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bounties -->
+  <section id="bounties">
+    <div class="wrap">
+      <span class="eyebrow">grep -r "bounty" reports/*.log</span>
+      <h2>Reported Vulnerabilities & Bug Bounties</h2>
+      <p class="section-intro">A selection of real-world findings reported and acknowledged by affected organizations.</p>
+      <div class="bounty-list" id="bounty-list"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="wrap">
+      <span class="eyebrow">./contact.sh</span>
+      <h2>Get In Touch</h2>
+      <p class="section-intro">Fill in the form, or reach out directly through any of the channels below.</p>
+      <div class="contact-grid">
+        <form action="https://getform.io/f/09aea34b-7820-4df8-b34f-c6d68b168b48" method="POST">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+        </form>
+        <div class="contact-links">
+          <a href="https://github.com/shouvikdutta1998" target="_blank" class="contact-link-item">
+            <i class="fa-brands fa-github"></i>
+            <span><span class="label">GitHub</span><span class="value">shouvikdutta1998</span></span>
+          </a>
+          <a href="https://www.linkedin.com/in/shouvik-dutta/" target="_blank" class="contact-link-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <span><span class="label">LinkedIn</span><span class="value">shouvik-dutta</span></span>
+          </a>
+          <a href="https://mrhacker07.wordpress.com/" target="_blank" class="contact-link-item">
+            <i class="fa-brands fa-wordpress"></i>
+            <span><span class="label">Blog</span><span class="value">mrhacker07.wordpress.com</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap footer-inner">
+      <p>Shouvik Dutta &copy; 2026</p>
+      <div class="footer-social">
+        <a href="https://github.com/shouvikdutta1998" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shouvik-dutta/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://mrhacker07.wordpress.com/" target="_blank" aria-label="Blog"><i class="fa-brands fa-wordpress"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
