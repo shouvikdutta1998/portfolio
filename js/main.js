@@ -128,7 +128,7 @@
     { prompt: '$ cat experience.txt', out: '7 years | AppSec, Pentesting, Red Team, VAPT' },
     { prompt: '$ cat role.txt', out: 'Senior Associate — Offensive Security @ PwC AC' },
     { prompt: '$ cat certs.txt', out: 'OSCP · CRTO · CEH v11' },
-    { prompt: '$ ./run_scan.sh --target=web,api,mobile,cloud,ad', out: '[+] scan complete — 6 findings disclosed responsibly' }
+    { prompt: '$ ./run_scan.sh --target=web,api,mobile,cloud,ad', out: '[+] scan complete — 15+ findings disclosed responsibly' }
   ];
 
   function typeTerminal() {
